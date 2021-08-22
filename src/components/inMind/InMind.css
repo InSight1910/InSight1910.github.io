@@ -1,0 +1,30 @@
+.inmind-container {
+	padding: 3rem;
+	background-color: var(--first-color);
+	text-align: center;
+}
+.button__inmind {
+	background-color: var(--container-color);
+	color: var(--first-color);
+}
+.inmind-title,
+.inmind-subtitle {
+	padding-bottom: 2rem;
+	color: var(--container-color);
+}
+.inmind-title {
+	font-size: var(--h2-font-size);
+}
+.inmind-message {
+	width: 1.5rem;
+}
+@media screen and (min-width: 568px) {
+	.inmind-container {
+		border-radius: 1rem;
+	}
+}
+@media screen and (min-width: 768px) {
+	.inmind-container {
+		padding: 3rem 2.5rem;
+	}
+}

@@ -1,0 +1,45 @@
+.swiper__icon {
+	width: 1.2rem !important;
+}
+
+.swiper__logo {
+	width: 8rem;
+	justify-self: center;
+	align-self: center;
+	margin-bottom: var(--mb-1-5);
+}
+.swiper-title {
+	font-size: var(--h3-font-size);
+	margin-top: var(--mb-2);
+}
+.swiper-description {
+	margin-top: var(--mb-1);
+}
+@media screen and (min-width: 568px) {
+	.swiper-description {
+		margin-right: 1rem;
+	}
+}
+.swiper-description {
+	margin-bottom: var(--mb-0-75);
+}
+.swiper-container {
+	overflow: initial;
+}
+
+.swiper__button:hover .swiper__icon {
+	transform: translateX(0.25rem);
+}
+
+.swiper-data {
+	padding: 1.2rem;
+}
+.control-dots {
+	margin: 0 !important;
+}
+.dot {
+	background-color: var(--first-color) !important;
+}
+.slider {
+	padding-bottom: 1rem !important;
+}

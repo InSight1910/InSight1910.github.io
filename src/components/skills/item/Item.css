@@ -1,0 +1,65 @@
+.skill__item {
+	display: none;
+	grid-template-columns: repeat(2, 1fr);
+	row-gap: 2rem;
+}
+
+.technology {
+	text-align: center;
+}
+
+.icon {
+	width: 3rem;
+}
+.subtitle__skll {
+	color: var(--text-color-light);
+}
+.skill__type {
+	display: inline-flex;
+	align-items: center;
+	margin-bottom: var(--mb-2-5);
+	box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+	padding: 1rem;
+	width: 100%;
+	justify-content: space-evenly;
+}
+.skill__type_last {
+	margin-bottom: 0;
+}
+.icon__type {
+	width: 2rem;
+	margin: 0.5rem 0.75rem 0 0;
+}
+.icon__angle {
+	width: 2rem;
+}
+.angle__button {
+	background-color: var(--container-color);
+	border: none;
+	cursor: pointer;
+}
+.icon__close {
+	width: 1.5rem;
+}
+.active_skill {
+	display: grid;
+	transition: all 10s ease-in-out !important;
+}
+.toggle {
+	margin-left: var(--mb-3);
+}
+.item__container {
+	margin-bottom: 1rem;
+}
+.technology__last:last-child {
+	grid-column: 1 / 3;
+}
+
+@media screen and (min-width: 768px) {
+	.item__container {
+		justify-self: center;
+	}
+	.skill__type {
+		padding: 1.5rem;
+	}
+}

@@ -1,0 +1,33 @@
+.orange {
+	color: #ff9d00;
+}
+
+.yellow {
+	color: #ffc600;
+}
+.white {
+	color: #fff;
+}
+.pink {
+	color: #ff628c;
+}
+.green {
+	color: #3ad900;
+}
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}
+
+.code-container {
+	background-color: #193549;
+	padding: 1rem;
+	border-radius: 1rem;
+	overflow: auto;
+	overflow-y: auto;
+}
+.code-container::-webkit-scrollbar-button {
+	display: none;
+}
