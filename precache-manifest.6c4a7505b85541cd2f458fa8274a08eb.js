@@ -1,31 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "e53622e7c7daccd42976",
-    "url": "/static/css/main.5a8254a2.chunk.css"
+    "revision": "6e6bcba516f0c8b5ee76",
+    "url": "/static/css/main.f8f757f2.chunk.css"
   },
   {
-    "revision": "e53622e7c7daccd42976",
-    "url": "/static/js/main.de71ee08.chunk.js"
+    "revision": "6e6bcba516f0c8b5ee76",
+    "url": "/static/js/main.7db3f0db.chunk.js"
   },
   {
-    "revision": "42d24a5a238e1862e9d7",
-    "url": "/static/js/runtime~main.31b7d049.js"
+    "revision": "ed371d8980d2f187011a",
+    "url": "/static/js/runtime~main.460e0008.js"
   },
   {
-    "revision": "c7881724da23ceba3d49",
+    "revision": "197cecc8b5407ad72709",
     "url": "/static/css/2.431bd417.chunk.css"
   },
   {
-    "revision": "c7881724da23ceba3d49",
-    "url": "/static/js/2.5ab47258.chunk.js"
+    "revision": "197cecc8b5407ad72709",
+    "url": "/static/js/2.6ca88bc6.chunk.js"
   },
   {
-    "revision": "0670574c3d9e0a5e2630",
-    "url": "/static/js/3.733b6a7d.chunk.js"
+    "revision": "cfc029b05e5b06854b71",
+    "url": "/static/js/3.cacba865.chunk.js"
   },
   {
-    "revision": "9cfb6a06aeee640e67baefdc163ee24f",
-    "url": "/static/media/server.9cfb6a06.svg"
+    "revision": "e1a1fbc9ab491a3ed12db07a33eb9689",
+    "url": "/static/media/server.e1a1fbc9.svg"
+  },
+  {
+    "revision": "2b5774f51c285a4ac4175b87465eef6f",
+    "url": "/static/media/angle-down.2b5774f5.svg"
   },
   {
     "revision": "c22dd24f463065c5e7bea1dc18c5b875",
@@ -50,10 +54,6 @@ self.__precacheManifest = [
   {
     "revision": "a129f31f0781f0d7bd3bd9b7aa0ba19c",
     "url": "/static/media/CVVicenteEspinosa.a129f31f.pdf"
-  },
-  {
-    "revision": "2b5774f51c285a4ac4175b87465eef6f",
-    "url": "/static/media/angle-down.2b5774f5.svg"
   },
   {
     "revision": "5644ca409e62cc9ce4fe2ef6042de22c",
@@ -168,11 +168,23 @@ self.__precacheManifest = [
     "url": "/static/media/envelope.3b9d65ac.svg"
   },
   {
+    "revision": "015ce323ff6549621543adc6ad2589c5",
+    "url": "/static/media/github.015ce323.svg"
+  },
+  {
+    "revision": "0a59c95e93563b6b47592f78991c1ef9",
+    "url": "/static/media/envelope-white.0a59c95e.svg"
+  },
+  {
+    "revision": "664f4bc5e9e892ca28c13e4df5196b9e",
+    "url": "/static/media/language.664f4bc5.svg"
+  },
+  {
     "revision": "f20f18e5b8e1ff183e7f7b0338e93cf5",
     "url": "/static/media/tag.f20f18e5.svg"
   },
   {
-    "revision": "d52b4a8b0b341c998ba11b39a10fe3dc",
+    "revision": "a0cd22590ae86471e76894e113e1910b",
     "url": "/index.html"
   }
 ];
