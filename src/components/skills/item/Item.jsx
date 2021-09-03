@@ -47,7 +47,9 @@ const Item = ({ skills, id, icon_title, title, experience }) => {
 				{skills.map((item, index) => (
 					<div
 						className={`technology ${
-							last ? "technology__last" : ""
+							last & (index === skills.length - 1)
+								? "technology__last"
+								: ""
 						}`}
 						key={index}
 					>

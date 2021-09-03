@@ -20,8 +20,17 @@
 	margin-bottom: var(--mb-2-5);
 	box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
 	padding: 1rem;
-	width: 100%;
 	justify-content: space-evenly;
+}
+@media screen and (min-width: 568px) {
+	.skill__type {
+		width: 70%;
+	}
+}
+@media screen and (min-width: 768px) {
+	.skill__type {
+		width: 100%;
+	}
 }
 .skill__type_last {
 	margin-bottom: 0;
@@ -43,15 +52,15 @@
 }
 .active_skill {
 	display: grid;
-	transition: all 10s ease-in-out !important;
 }
 .toggle {
 	margin-left: var(--mb-3);
 }
 .item__container {
 	margin-bottom: 1rem;
+	text-align: center;
 }
-.technology__last:last-child {
+.technology__last {
 	grid-column: 1 / 3;
 }
 

@@ -21,11 +21,10 @@
 .about__img {
 	margin-bottom: var(--mb-2-5);
 }
-@media screen and (min-width: 568px) {
-	.about__button {
-		text-align: center;
-	}
+.about__button {
+	text-align: center;
 }
+
 @media screen and (min-width: 768px) {
 	.about__content {
 		display: grid;
